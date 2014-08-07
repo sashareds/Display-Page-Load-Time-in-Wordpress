@@ -31,4 +31,4 @@ function DisplayLoadTime() {
 
 
 // this snipped of code to be placed in anywhere you want to get displayed load results. Usually that's in the end of the footer.php
-echo DisplayPageLoad;
+echo DisplayPageLoad();
