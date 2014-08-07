@@ -14,8 +14,8 @@ I just a bit altered it for my preferences.
 
 If anyone ever will come across this page. Here is how to use this thing.
 
-1. Stick the content of the DisplayLoadTime.php file into you function.php file
+1. Stick the content of the DisplayLoadTime.php file into your function.php file
 2. Add line of code to wp-config.php `define( 'SAVEQUERIES', true );` [Codex](http://codex.wordpress.org/Editing_wp-config.php#Save_queries_for_analysis "Explanation of this variable at the Wordpress Codex") reference 
-2. And then just insert `echo DisplayLoadTime();` somewhere in you theme (usually in the footer.php)
+2. And then just insert `echo DisplayLoadTime();` somewhere in your theme (usually in the footer.php)
 
 That's it!
