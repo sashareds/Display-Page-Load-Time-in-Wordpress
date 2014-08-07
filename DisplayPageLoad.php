@@ -32,3 +32,5 @@ function DisplayLoadTime() {
 
 // this snipped of code to be placed in anywhere you want to get displayed load results. Usually that's in the end of the footer.php
 echo DisplayPageLoad();
+
+//Don't forget to define variavle if wp-config.php - define( 'SAVEQUERIES', true );
